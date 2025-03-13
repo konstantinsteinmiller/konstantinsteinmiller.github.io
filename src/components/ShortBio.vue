@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="relative flex pt-4 w-full">
+  <div class="relative flex sm:flex-row flex-col items-center pt-4 pb-12 w-full">
     <div class="picture relative p-12 pt-16">
-      <p class="absolute -right-64 top-0 flex justify-center items-center">
+      <p class="absolute sm:-right-52 sm:top-0 -top-2 flex justify-center items-center">
         <span class="pr-2">Hello! I am</span>
         <span class="violet text-2xl">Konstantin Steinmiller</span>
       </p>
@@ -19,8 +19,9 @@
         src="@/assets/images/arrow.png"
       />
     </div>
-    <div class="max-w-1/2 pt-12 relative">
-      <div class="text-3xl pb-4">I&#39;m a Senior Software Engineer and Game Developer.|</div>
+    <div class="sm:max-w-1/2 sm:pt-12 relative">
+      <div class="inline text-3xl pb-4 vue-text w-auto">I&#39;m a Senior Software Engineer and Game Developer.|</div>
+      <div class="h-4" />
       <p class="bio mt-4 glass card p-4">
         As a web frontend specialist with more than 8 years of professional experience I develop. modern, user-friendly
         and performant SPA and SSR apps. My expertise spans across various industrial sectors such as: fintech/banking,

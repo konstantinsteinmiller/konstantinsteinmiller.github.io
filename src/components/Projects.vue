@@ -112,8 +112,8 @@ const projectsList: Project[] = [
 </script>
 
 <template>
-  <div class="projects relative flex flex-col justify-between items-center w-full h-auto">
-    <h3 class="glass text-2xl pb-4">My projects</h3>
+  <div class="projects relative flex flex-col justify-between items-center w-full h-auto sm:pt-8 pt-12">
+    <h3 class="inline text-3xl pb-4 vue-text">Projects</h3>
 
     <div
       v-for="(project, index) in projectsList"

@@ -1,13 +1,15 @@
 <template>
-  <div class="portfolio w-full h-full relative flex justify-center">
+  <div class="portfolio w-full h-full relative flex flex-col items-center">
     <img
       class="background z-0 absolute h-full"
       alt="Background"
       src="@/assets/images/background.png"
     />
-    <div class="text-white w-full max-w-[1080px]">
+    <div class="text-white w-full sm:max-w-[1080px] max-w-[90%]">
       <ShortBio />
       <Skills />
+    </div>
+    <div class="text-white w-full sm:max-w-[1080px]">
       <Projects />
     </div>
   </div>
@@ -28,7 +30,6 @@ export default defineComponent({
 <style>
 .portfolio {
   color: #ffffff;
-  min-width: 1080px;
 }
 
 .portfolio .rectangle-3 {

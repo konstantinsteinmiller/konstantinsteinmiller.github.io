@@ -5,7 +5,7 @@
       alt="Background"
       src="@/assets/images/background.png"
     />
-    <div class="text-white w-full max-w-[1080px]">
+    <div class="text-white w-full sm:max-w-[1080px]">
       <Projects />
     </div>
   </div>
