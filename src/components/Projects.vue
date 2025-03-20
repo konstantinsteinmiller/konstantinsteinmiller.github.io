@@ -33,7 +33,7 @@ const projectsList: Project[] = [
   {
     name: 'Legend of Ahssûn website',
     description:
-      'The OnePager was created by me for the game release in 2018. Legend of Ahssûn features 100+ gameplay hours for RPG fans and is a project a actively developed as a scripter and in several other roles.',
+      'The OnePager was created by me for the game release in 2018. Legend of Ahssûn features 100+ gameplay hours for RPG fans and is a project I have actively developed as a scripter and in several other roles.',
     img: LegendOfAhssunImg,
     link: 'https://github.com/konstantinsteinmiller/legend-of-ahssun',
     demo: 'http://legendofahssun.worldofgothic.com',
@@ -56,7 +56,7 @@ const projectsList: Project[] = [
   {
     name: 'Code Competition winner: ShipmentTrack',
     description:
-      'Shipment tracking via a tracking number. Shows the current status and the history of the whereabouts of the shipment. You can send in new shipping request via the administration ui and update the status with the update status ui UI is just available in english. Internalization was left out. Fully responsive design.',
+      'With this project submitted I made 1st place with a 500€ reward. Shipment tracking via a tracking number. Shows the current status and the history of the whereabouts of the shipment. You can send in a new shipping request via the administration ui and update the status with the update status ui. Fully responsive design.',
     img: ShipmentTrackImg,
     link: 'https://github.com/konstantinsteinmiller/shipment-tracking',
   },
@@ -77,7 +77,7 @@ const projectsList: Project[] = [
   {
     name: 'Galaxy generator',
     description:
-      'A galaxy generator that creates a galaxy with stars and planets. The galaxy is generated with a seed and can be saved and loaded. The galaxy is generated with a seed and can be saved and loaded.',
+      'A galaxy generator that creates a galaxy with stars and planets. The galaxy is generated with a seed and can be saved and loaded.',
     img: GalaxyImg,
     link: 'https://github.com/konstantinsteinmiller/3d-galaxy-generator',
     demo: 'http://3d-galaxy-generator.surge.sh',
@@ -85,7 +85,7 @@ const projectsList: Project[] = [
   {
     name: 'Roulette Strategy Simulator',
     description:
-      'The goal was to beat roulette by using progressive betting strategies. The simulator is able to simulate the betting strategies and shows the results in a graph. Unfortunately no strategy was able to beat the randomness of this game in the long run.',
+      'The goal was to beat roulette by using progressive betting strategies. The simulator is able to simulate the betting strategies and shows the results in a graph. Unfortunately no strategy was able to beat the randomness of this game in the long run and consistently enough.',
     img: RouletteImg,
     link: 'https://github.com/konstantinsteinmiller/roulette-simulator',
   },
@@ -98,7 +98,7 @@ const projectsList: Project[] = [
   {
     name: 'Web league UI',
     description:
-      'The web league UI project was a task given at a job interview to create a server and a UI that correctly sorts displays a leaderboard and team matches.',
+      'The web league UI project was a task given at a job interview to create a server and a UI that correctly sorts and displays a leaderboard and team matches.',
     img: WebLeagueImg,
     link: 'https://github.com/konstantinsteinmiller/web-league-ui',
   },
