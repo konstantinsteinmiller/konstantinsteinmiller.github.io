@@ -59,7 +59,7 @@ const onLink = (url: string) => {
           target="_blank"
         >
           <img
-            class="rounded-xl max-w-[350px] max-h-[400px]"
+            class="rounded-xl max-w-[350px] w-full max-h-[400px]"
             :src="project.img"
             alt="project image"
         /></a>

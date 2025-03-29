@@ -12,6 +12,9 @@
     <div class="text-white w-full sm:max-w-[1080px]">
       <Projects />
     </div>
+    <div class="text-white w-full sm:max-w-[1080px]">
+      <Github />
+    </div>
   </div>
 </template>
 
@@ -20,10 +23,11 @@ import { defineComponent } from 'vue'
 import ShortBio from '@/components/ShortBio.vue'
 import Skills from '@/components/Skills.vue'
 import Projects from '@/components/Projects.vue'
+import Github from '@/components/Github.vue'
 
 export default defineComponent({
   name: 'Portfolio',
-  components: { Projects, Skills, ShortBio },
+  components: { Github, Projects, Skills, ShortBio },
 })
 </script>
 
@@ -33,14 +37,7 @@ export default defineComponent({
 }
 
 .portfolio .rectangle-3 {
-  background: linear-gradient(
-    180deg,
-    rgb(19.08, 3.87, 40.37) 7.29%,
-    rgb(37.16, 15.9, 66.94) 34.38%,
-    rgb(55.97, 17.78, 109.44) 56.77%,
-    rgb(38.34, 16.4, 69.06) 84.9%,
-    rgb(25.36, 6.29, 52.06) 100%
-  );
+  background: linear-gradient(180deg, rgb(19.08, 3.87, 40.37) 7.29%, rgb(37.16, 15.9, 66.94) 34.38%, rgb(55.97, 17.78, 109.44) 56.77%, rgb(38.34, 16.4, 69.06) 84.9%, rgb(25.36, 6.29, 52.06) 100%);
   border-radius: 15px;
   box-shadow: 4px 7px 26px #0000001f;
   height: 193px;
