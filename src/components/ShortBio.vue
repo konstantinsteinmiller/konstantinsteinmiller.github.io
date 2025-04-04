@@ -1,4 +1,14 @@
 <script setup lang="ts">
+import { onMounted, ref } from 'vue'
+
+const cursorVisible = ref(true)
+
+onMounted(() => {
+  setTimeout(() => {
+    cursorVisible.value = false
+    document.querySelector('.blinking-cursor').classList.remove('blinking-cursor')
+  }, 8000)
+})
 </script>
 
 <template>
@@ -21,17 +31,18 @@
       />
     </div>
     <div class="sm:max-w-1/2 sm:pt-12 sm:translate-y-2 relative">
-      <div class="inline text-3xl pb-4 vue-text w-auto">I&#39;m a Senior Software Engineer and Game Developer.|</div>
+      <div class="inline text-3xl pb-4 vue-text w-auto">I&#39;m a Senior Software Engineer and Game Developer.<span class="blinking-cursor">|</span></div>
       <div class="h-4" />
       <p class="bio mt-4 glass card p-4">
-        I specialize in Vue.js and React.js, developing modern, user-friendly,
-        and high-performance SPA and SSR applications that deliver tangible business impact. <br />
-        My senior expertise spans across multiple industries, including fintech/banking, platforms,
-        health insurance, B2B & B2C web shops (agriculture, vehicle sales, tool sales). <br />
-        With a strong foundation in scalable, user-centric application development, I solve real-world challenges by combining analytical rigor with creative problem-solving.
-        I thrive in teamwork, independent work and objective-driven project collaboration, always aligning technology with business goals. <br />
-        By staying at the forefront of emerging technologies, I deliver cutting-edge solutions
-        that drive organizational success and enhance user experiences. My portfolio showcases this commitment to excellence.
+        I specialize in Vue.js and React.js, developing modern, user-friendly, and high-performance SPA and SSR
+        applications that deliver tangible business impact (over 9 years professional experience). <br />
+        My senior expertise spans across multiple industries, including fintech/banking, platforms, health insurance,
+        B2B & B2C web shops (agriculture, vehicle sales, tool sales). <br />
+        With a strong foundation in scalable, user-centric application development, I solve real-world challenges by
+        combining analytical rigor with creative problem-solving. I thrive in teamwork, independent work and
+        objective-driven project collaboration, always aligning technology with business goals. <br />
+        By staying at the forefront of emerging technologies, I deliver cutting-edge solutions that drive organizational
+        success and enhance user experiences. My portfolio showcases this commitment to excellence.
       </p>
     </div>
   </div>
@@ -48,4 +59,13 @@
   background: radial-gradient(circle at center, #763CAC 0%, #320F85 70%, #11071f 100%)
   mask: radial-gradient(circle at center, white 0%, white 30%, transparent 78%)
   //border-radius: 50%
+
+.blinking-cursor
+  animation: blink 1s step-end infinite
+
+@keyframes blink
+  from, to
+    color: transparent
+  50%
+    color: white
 </style>

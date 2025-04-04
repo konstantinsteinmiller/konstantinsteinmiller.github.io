@@ -15,6 +15,7 @@
     <div class="text-white w-full sm:max-w-[1080px]">
       <Github />
     </div>
+    <div><MouseImageDrop /></div>
   </div>
 </template>
 
@@ -24,10 +25,11 @@ import ShortBio from '@/components/ShortBio.vue'
 import Skills from '@/components/Skills.vue'
 import Projects from '@/components/Projects.vue'
 import Github from '@/components/Github.vue'
+import MouseImageDrop from '@/components/molecules/MouseImageDrop.vue'
 
 export default defineComponent({
   name: 'Portfolio',
-  components: { Github, Projects, Skills, ShortBio },
+  components: { MouseImageDrop, Github, Projects, Skills, ShortBio },
 })
 </script>
 
